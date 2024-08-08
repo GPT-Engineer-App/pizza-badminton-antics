@@ -1,14 +1,13 @@
 import React from 'react';
-import { Pizza, Code, GamepadIcon, MapPin } from 'lucide-react';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-yellow-100 text-gray-800">
+    <div className="min-h-screen bg-blue-100 text-gray-800">
       <header className="bg-red-500 text-white p-4">
         <div className="container mx-auto flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <Pizza className="h-8 w-8" />
-            <Code className="h-8 w-8" />
+          <div className="flex items-center space-x-2 text-2xl">
+            <span role="img" aria-label="Pizza">🍕</span>
+            <span role="img" aria-label="Computer">💻</span>
           </div>
           <h1 className="text-2xl font-bold">Viktor Vatn: The Pizza-Powered Coder of Västerås</h1>
         </div>
@@ -34,7 +33,7 @@ const Index = () => {
               <img src="/placeholder.svg" alt="Viktor Vatn" className="w-24 h-24 rounded-full mr-4" />
               <div>
                 <h3 className="text-xl font-bold">Viktor Vatn</h3>
-                <p className="flex items-center"><MapPin className="h-4 w-4 mr-2" /> Västerås, Sweden</p>
+                <p className="flex items-center"><span role="img" aria-label="Location" className="mr-2">📍</span> Västerås, Sweden</p>
               </div>
             </div>
             <p>Viktor is a pizza-loving, badminton-smashing, code-crushing extraordinaire from the heart of Sweden!</p>
@@ -45,11 +44,11 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-4">Swedish Pizza Power</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-white p-4 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Kebab Pizza</h3>
+              <h3 className="text-xl font-bold mb-2">Kebab Pizza <span role="img" aria-label="Kebab">🥙</span></h3>
               <p>Fuels Viktor's late-night coding sessions</p>
             </div>
             <div className="bg-white p-4 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Banana Curry Pizza</h3>
+              <h3 className="text-xl font-bold mb-2">Banana Curry Pizza <span role="img" aria-label="Banana">🍌</span><span role="img" aria-label="Curry">🍛</span></h3>
               <p>Gives Viktor the edge in badminton matches</p>
             </div>
           </div>
