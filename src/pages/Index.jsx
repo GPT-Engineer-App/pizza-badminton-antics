@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pizza, Tennis, Code, GamepadIcon, MapPin } from 'lucide-react';
+import { Pizza, Racquet, Code, GamepadIcon, MapPin } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -8,7 +8,7 @@ const Index = () => {
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Pizza className="h-8 w-8" />
-            <Tennis className="h-8 w-8" />
+            <Racquet className="h-8 w-8" />
             <Code className="h-8 w-8" />
           </div>
           <h1 className="text-2xl font-bold">Viktor Vatn: The Pizza-Powered Badminton Coder of Västerås</h1>
